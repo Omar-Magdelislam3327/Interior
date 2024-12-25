@@ -228,3 +228,12 @@ footer {
         color: #C1C1C1;
     }
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: whitesmoke;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary);
+}
