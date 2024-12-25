@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Interior Design Company</title>
+    <link rel="stylesheet" href="assets/vendors/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendors/css/main.css">
+    <link rel="stylesheet" href="assets/vendors/css/all.min.css">
+    <style>
+        nav {
+            background-color: #4E554D;
+        }
+
+        .portfolio-title {
+            text-align: center;
+            margin: 40px 0;
+            font-size: 32px;
+            font-weight: bold;
+            color: #4E554D;
+        }
+
+        .portfolio-item {
+            background-color: #e9ecef;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #999;
+            height: 280px;
+            text-align: center;
+            font-size: 18px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+
+        .portfolio-item img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/vendors/imgs/logo.jpg" class="img-fluid" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <a href="contact.html" class="btn btn-light">Contact Us</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section class="portfolio py-5">
+        <div class="container">
+            <h2 class="portfolio-title">Our Projects</h2>
+            <div class="row">
+                <div class="col-md-3 mt-3">
+                    <div class="portfolio-item">
+                        <img src="assets/vendors/imgs/about1.jpg" alt="Project 1">
+                    </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <div class="portfolio-item">
+                        <img src="assets/vendors/imgs/about2.jpg" alt="Project 2">
+                    </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <div class="portfolio-item">
+                        <img src="assets/vendors/imgs/about3.jpg" alt="Project 3">
+                    </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <div class="portfolio-item">
+                        <img src="assets/vendors/imgs/about4.jpg" alt="Project 6">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-white mt-5">
+        <div class="container">
+            <div class="row text-center pt-3">
+                <div class="col-lg-4">
+                    <h5>About Us</h5>
+                    <p>We are dedicated to delivering exceptional interior design services, creating spaces that
+                        inspire
+                        and reflect your unique style.</p>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Services</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Portfolio</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Contact Us</h5>
+                    <p><i class="fa-solid fa-envelope"></i> madany@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +123 456 7890</p>
+                    <p><i class="fa-solid fa-location-dot"></i> 123 Ezbet Elnakhl, Cairo, Egypt</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col text-center">
+                    <p>&copy; 2024 Interior Design. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
